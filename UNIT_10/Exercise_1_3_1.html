@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise 1.3.1</title>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Manuel Pérez">
+
+</head>
+<body>
+    <form>   
+        <fieldset>
+            <h1>PAYMENT FORM</h1>
+            <p>Required fields are followed by <strong>*</strong></p>
+            <section>
+                <fieldset>
+                    <legend><h2>Contact information</h2></legend>
+                        <fieldset>
+                            <legend>Status</legend>
+                            <label><input type="radio" name="status" value="mr">Teacher</label><br>
+                            <label><input type="radio" name="status" value="mrs">Student</label><br>
+                            <label><input type="radio" name="status" value="miss">Other</label><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Title</legend>
+                            <label>
+                                <input type="radio" name="title" value="mr">Mr
+                            </label><br>
+                            <label>
+                                <input type="radio" name="title" value="mrs">Mrs
+                            </label><br>
+                            <label>
+                                <input type="radio" name="title" value="miss">Miss
+                            </label> <br>
+                        </fieldset>
+                        <p><label>Name: *
+                            <input type="text" name="name" required>
+                        </label><br>
+                        <label>E-mail: *
+                            <input type="email" name="email" required>
+                        </label><br>
+                        <label>Phone number: *
+                            <input type="text" name="text" required>
+                        </label><br>
+                        <label>Password: *
+                            <input type="password" name="password" required>
+                        </label><br>
+                        </p>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <legend>
+                        <h2>Payment information</h2>
+                    </legend>
+                    <p>
+                        <label>Card type:
+                            <select name="card_type" required>
+                                <option value="visa">Visa</option>
+                                <option value="mc">Mastercard</option>
+                                <option value="amex">American Express</option>
+                            </select>
+                        </label>
+                    </p>
+                    <label>Card number: *
+                        <input type="tel" name="card_number" required>
+                    </label><br>
+                    <label>Expiration date: *
+                        <input type="date" id="date" required>
+                    </label>
+                </fieldset>
+            </section>
+            <p><button type="submit">Validate the payment</button></p>
+        </fieldset>
+    </form>
+</body>    
+</html>

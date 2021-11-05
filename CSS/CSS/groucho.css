@@ -1,0 +1,43 @@
+﻿@font-face {   font-family: titulo;   src:url(ribeye-marrow.woff); }
+@font-face {   font-family: english;   src:url(PaytoneOne-Regular.ttf); }
+@font-face {   font-family: spanish;   src:url(just-another-hand.woff); }
+
+
+body {
+  background-color: rgb(203, 172, 77);
+  font-size: medium;
+}
+
+.grou {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 30%;
+  margin-right: 30%;
+  line-height: 200%;
+  text-align: justify;
+}
+
+.grou>cite {
+  text-decoration: underline;
+}
+
+.titulo {
+  font-size: 300%;
+  font-family: titulo;
+  letter-spacing: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.english {
+  font-size: 250%;
+  font-family: english;
+  font-size: ;
+  border: solid red 3px;
+}
+
+.spanish {
+  font-size: 350%;
+  font-family: spanish;
+  color: white;
+  letter-spacing: 1px;
+}

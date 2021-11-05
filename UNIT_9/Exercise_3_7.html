@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise 3.7</title>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Manuel Pérez">
+    <meta name="description" content="Exercise 3.7 of the unit 9">
+</head>
+<body>
+    <form name="f" action="index.html" method="get">
+        <fieldset>
+            <legend>Datos1</legend>
+            <label>Name: * <input placeholder="Write your Name" type="text" name="name" required></label>
+            <br>
+            <br>
+            <label>Teléfono: *<input placeholder="Number phone" type="number" name="telefono" required></label>
+            <br>
+            <br>
+            <label>Sexo:
+                Hombre <input type="radio" name="sexo" value="Hombre"></label>
+                <label>Mujer <input type="radio" name="sexo" value="Mujer"></label>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Datos 2</legend>
+            
+            <p>hobbies:</p>
+            <label>Futbol <input type="checkbox" name="hobby" value="futbol"></label>
+            <label> Baloncesto <input type="checkbox" name="hobby" value="Baloncesto"></label>
+            <label> Frónton <input type="checkbox" name="hobby" value="fronton"></label> 
+            <label> Formula 1 <input type="checkbox" name="hobby" value="Formula 1"></label>
+            <label> MotoGP <input type="checkbox" name="hobby" value="MotoGP"></label>
+
+            <br>
+            <br> 
+            <label>Pais: 
+                <select name="pais">
+                    <option value="">--Choise a country--</option>
+                    <option value="España">España</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Jamaica">Jamaica</option>
+                    <option value="Otros">Otros</option>
+                </select>
+            
+            </label>
+            <br>
+            <br>
+            <textarea name="opinion" cols="30" rows="20" required>Insert your opinion *</textarea>
+
+        </fieldset>
+        <label>
+            <input type="reset" value="Reset">
+        </label>
+        <label>
+            <input type="submit" value="Send" name="Send">
+        </label>
+    </form>
+
+</body>
+</html>

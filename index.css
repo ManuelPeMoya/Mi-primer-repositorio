@@ -1,0 +1,88 @@
+body {
+    background:black ;
+    background-size: 100%;
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;
+  }
+
+header {
+    background: black;
+    height: 75px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 75px;
+    margin: 0;
+}
+
+
+h2 {
+    color: deepskyblue;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+    color: seagreen;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 5px 5px 4px black;
+    font-size: 32px;
+}
+
+ul {
+    color: coral;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+}
+
+a:link {
+    color: black;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: grey;
+}
+
+article {
+    padding: 1%;
+    margin: 1%;
+    flex: 48%;
+    background: yellow;
+
+}
+
+.navbar {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    text-align: center;
+    background: yellow;
+  }
+
+  ul.navbar li {
+    display: inline;
+  }
+
+  ul.navbar a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+  }
+
+  ul.navbar a:hover {     
+    background: orange;
+  }
+
+  ul.navbar a:active {
+    color: white;
+    background: red;
+  }
+
+p {
+  color: white;
+}

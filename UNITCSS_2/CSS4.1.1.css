@@ -1,0 +1,32 @@
+h1 {
+    color: cyan;
+}
+
+p {
+    color: darkcyan;
+}
+
+.uno {
+    font-family: serif;
+    color: blue;
+}
+
+.dos {
+    font-family: fantasy;
+    color: green;
+}
+
+.tres {
+    font-family: cursive;
+    color: grey;
+}
+
+.cuatro {
+    font-family: sans-serif;
+    color: red;
+}
+
+.cinco {
+    font-family: monospace;
+    color: salmon;
+}

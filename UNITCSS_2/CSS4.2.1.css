@@ -1,0 +1,33 @@
+h1 {
+    color: cyan;
+}
+
+.p1 {
+    font-family: Arial;
+    color: blue;
+}
+
+.p2 {
+    font-family: Georgia;
+    color: green;
+}
+
+.p3 {
+    font-family: "Times New Roman";
+    color: grey;
+}
+
+.p4 {
+    font-family: "Trebuchet MS";
+    color: red;
+}
+
+.p5 {
+    font-family: Verdana;
+    color: salmon;
+}
+
+.p6 {
+    font-family: "Courier New";
+    color: springgreen;
+}

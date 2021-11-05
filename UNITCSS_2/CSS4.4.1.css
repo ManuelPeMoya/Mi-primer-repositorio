@@ -1,0 +1,53 @@
+h1 {
+    color: cyan;
+}
+
+.p1 {
+    font-family: 'Anton', sans-serif;
+    color: blue;
+}
+
+.p2 {
+    font-family: 'Bodoni Moda', serif;
+    color: green;
+}
+
+.p3 {
+    font-family: 'Dancing Script', cursive;
+    color: grey;
+}
+
+.p4 {
+    font-family: 'Monoton', cursive;
+    color: red;
+}
+
+.p5 {
+    font-family: 'Pacifico', cursive;
+    color: salmon;
+}
+
+.p6 {
+    font-family: 'Potta One', cursive;
+    color: springgreen;
+}
+
+.p7 {
+    font-family: 'Roboto', sans-serif;
+    color: slateblue;
+}
+
+.p8 {
+    font-family: 'Sacramento', cursive;
+    color: paleturquoise;
+}
+
+.p9 {
+    font-family: 'Sigmar One', cursive;
+    color: orange;
+}
+
+.p10 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: mediumslateblue;
+}

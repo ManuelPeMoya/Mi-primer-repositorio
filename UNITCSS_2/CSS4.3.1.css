@@ -1,0 +1,29 @@
+h1 {
+    color: cyan;
+}
+
+.p1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}
+
+.p2 {
+    font-family: Copperplate, Papyrus, fantasy;
+    color: green;
+}
+
+.p3 {
+    font-family: "Lucida Sans Typewriter", "Andale Mono", Consolas, monospace;
+    color: grey;
+}
+
+.p4 {
+    font-family: Arial, Impact, sans-serif;
+    color: red;
+}
+
+.p5 {
+    font-family: "Book Antiqua", serif;
+    color: salmon;
+}
+

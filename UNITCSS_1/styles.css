@@ -1,0 +1,71 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: cyan;
+}
+
+p, li {
+    color: greenyellow;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: yellow;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+.h2UN, .h2OR {
+    color: blue;
+}
+
+.un1, .un1>li {
+    list-style-type: none;
+    color: red;
+}
+
+.un2, .un2>li {
+    list-style-type: disc;
+    color: blue;
+}
+
+.un3, .un3>li {
+    list-style-type: circle;
+    color: green;
+}
+
+.un4, .un4>li {
+    list-style-type: square;
+    color: yellow;
+}
+
+.or1, .or1>li {
+    list-style-type: upper-roman;
+    color: red;
+}
+
+.or2, .or2>li {
+    list-style-type: lower-greek;
+    color: blue;
+}
+
+.or3, .or3>li {
+    list-style-type: lower-alpha;
+    color: green;
+}
+
+.or4, .or4>li {
+    list-style-type: upper-alpha;
+    color: yellow;
+}

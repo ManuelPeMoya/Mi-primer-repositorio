@@ -1,0 +1,101 @@
+.p1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.p1 {
+    font-weight: initial;
+    text-transform: capitalize;
+    text-decoration: line-through;
+}
+
+.p2 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: dotted;
+}
+
+.p3 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.p4 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.p5 {
+    font-weight: unset;
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+
+.p6 {
+    font-weight: bolder;
+    text-transform: inherit;
+    text-decoration: dotted;
+}
+
+.p7 {
+    font-weight: lighter;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+.p8 {
+    font-weight: bolder;
+    text-transform: inherit;
+    text-decoration: lawngreen;
+}
+
+.p9 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.p10 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.p11 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.p12 {
+    font-weight: inherit;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+
+.p13 {
+    font-weight: bolder;
+    text-transform: none;
+    text-decoration: line-through;
+}
+
+.p14 {
+    font-weight: lighter;
+    text-transform: lowercase;
+    text-decoration: line-through;
+}
+
+.p15 {
+    font-weight: bold;
+    text-transform: initial;
+    text-decoration: line-through;
+}
+
+.p1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: double;

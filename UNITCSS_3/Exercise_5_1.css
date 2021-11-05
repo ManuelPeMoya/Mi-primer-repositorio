@@ -1,0 +1,30 @@
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: black;
+}
+
+a:focus {
+    color: blue;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+a {
+    background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+    background-size: 2rem;
+    padding-right: 2.5rem;
+}

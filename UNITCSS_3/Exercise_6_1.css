@@ -1,0 +1,57 @@
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: turquoise;
+}
+
+a:focus {
+    color: blue;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a:active {
+    color: darkcyan;
+}
+
+.imagen {
+    background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+    background-size: 2rem;
+    padding-right: 2.5rem;
+}
+
+
+.navbar {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    text-align: center;
+    background: yellow;
+  }
+
+  ul.navbar li {
+    display: inline;
+  }
+
+  ul.navbar a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem;
+  }
+
+  ul.navbar a:hover {     
+    background: orange;
+  }
+
+  ul.navbar a:active {
+    color: white;
+    background: red;
+  }

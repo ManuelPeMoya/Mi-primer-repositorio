@@ -1,0 +1,39 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 2rem;
+    text-shadow: 10px 3px 7px red;
+  }
+
+  dt {
+    text-shadow: 5px 5px 4px black;
+    font-size: 2rem;
+  }
+
+  ul, ol, dl {
+    font-size: 1.5em;
+  }
+  li {
+    line-height: 1.5;
+  }
+  dd, dt {
+    line-height: 1.5;
+  }
+  dt {
+    font-weight: bold;
+    padding-left: 2rem;
+  }
+  
+  ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+  ul li {
+    padding-left: 2rem;
+    background-image: url("https://mdn.github.io/learning-area/css/styling-text/styling-lists/star.svg");
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+  }
